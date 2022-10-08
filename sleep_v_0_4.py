@@ -137,7 +137,7 @@ def sleep_pc_ns_easy(sleep_time):
 
 # 精准苏醒
 def sleep_to_pc(wake_up):
-    while time.perf_counter_ns() < wake_up:
+    while time.perf_counter() < wake_up:
         pass
 
 
