@@ -1,6 +1,6 @@
 # sleep
 
-尝试在win平台提升sleep准确度
+##尝试在win平台提升sleep准确度
 
 V_0_4版本采用time.perf_counter()获取时间(看！文！档！)
 之后可能会为旧版本python增加支持time.clock()
